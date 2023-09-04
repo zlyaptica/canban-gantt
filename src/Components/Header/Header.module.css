@@ -1,0 +1,12 @@
+.header {
+
+}
+
+.wrapper {
+    max-width: 1100px;
+    background-color: red;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
