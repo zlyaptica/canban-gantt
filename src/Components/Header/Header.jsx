@@ -7,6 +7,7 @@ const Header = () => {
             <div className={classes.wrapper}>
                 <NavLink to={"/"}>На главную страницу(иконка проекта)</NavLink>
                 <NavLink to={"/profile"}>В профиль(иконка челика)</NavLink>
+                <NavLink to={"/signin"}>Войти/регистрация</NavLink>
             </div>
         </header>
     )
