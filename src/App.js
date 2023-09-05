@@ -10,18 +10,21 @@ import {UserProjects} from "./Components/UserProjects/UserProjects";
 import {Project} from "./Components/Project/Project";
 import {CreateProject} from "./Components/Project/CreateProject/CreateProject";
 
+import {useState} from "react";
 
 function App() {
-    const isAuthenticatedUser = true
+    const isAuthenticatedUser = false
+
     return (
         <BrowserRouter>
             <Header isAuthenticatedUser={isAuthenticatedUser}/>
+
             <Routes>
                 {isAuthenticatedUser ? <Route path={'/'} element={<UserProjects/>}/> : <Route path={'/'} element={<MainMenu/>}/>}
                 <Route path={'/project'} element={<Project/>}/>
                 <Route path={'/profile'} element={<UserProfile/>}/>
-                <Route path={'/signin'} element={<SignIn/>}/>
-                <Route path={'/signup'} element={<SignUp/>}/>
+                {/*<Route path={'/signin'} element={<SignIn/>}/>*/}
+                {/*<Route path={'/signup'} element={<SignUp/>}/>*/}
                 <Route path={'create_project'} element={<CreateProject/>}/>
             </Routes>
         </BrowserRouter>
