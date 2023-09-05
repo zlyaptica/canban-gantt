@@ -3,8 +3,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {UserProfile} from "./Components/UserProfile/UserProfile";
 import {GanttCharts} from "./Components/GanttCharts/GanttCharts";
 import {Header} from "./Components/Header/Header";
-import {SignIn} from "./login/SignIn/Signin";
-import {SignUp} from "./login/SignUp/SignUp";
+import {SignIn} from "./Components/Login/SignIn/Signin";
+import {SignUp} from "./Components/Login/SignUp/SignUp";
 
 
 function App() {

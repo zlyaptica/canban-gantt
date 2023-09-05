@@ -6,8 +6,8 @@ import {NavLink} from 'react-router-dom'
 import {reduxForm} from 'redux-form'
 import {SignInForm} from './SigninForm'
 import {useDispatch, useSelector} from 'react-redux'
-import {Input} from "../../Components/Common/FormsControls/FormsControls";
-//import {login} from '../../redux/authReducer'
+import {Input} from "../../Common/FormsControls/FormsControls";
+//import {Login} from '../../redux/authReducer'
 
 const SignIn = () => {
 //    const dispatch = useDispatch()
@@ -16,7 +16,7 @@ const SignIn = () => {
 
 
    const signIn = ({email, password, rememberMe}) => {
-//       dispatch(login(email, password, rememberMe))
+//       dispatch(Login(email, password, rememberMe))
    console.log("signed in")
     }
 

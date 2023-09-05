@@ -1,7 +1,7 @@
 import classes from './SignUp.module.css'
 import {Field} from 'redux-form'
-import {Input} from '../../Components/Common/FormsControls/FormsControls'
-import {maxLength, minLength, required} from '../../utils/validators/validators'
+import {Input} from '../../Common/FormsControls/FormsControls'
+import {maxLength, minLength, required} from '../../../utils/validators/validators'
 
 const minLengthUsername6 = minLength(6)
 const maxLengthUsername20 = maxLength(20)

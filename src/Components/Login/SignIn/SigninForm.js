@@ -1,8 +1,8 @@
 
 import classes from "./Signin.module.css";
 import {Field} from "redux-form";
-import {Input} from "../../Components/Common/FormsControls/FormsControls";
-import {maxLength, minLength, required} from "../../utils/validators/validators";
+import {Input} from "../../Common/FormsControls/FormsControls";
+import {maxLength, minLength, required} from "../../../utils/validators/validators";
 
 const minLengthPassword8 = minLength(8)
 const maxLengthPassword30 = maxLength(30)
