@@ -1,6 +1,6 @@
 const GanttCharts = () => {
     return (
-        <div>Gantt Charts</div>
+        <div>Диаграмма Ганта</div>
     )
 }
 
